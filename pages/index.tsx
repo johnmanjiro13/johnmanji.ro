@@ -42,7 +42,8 @@ const Index: React.FC = () => {
             <div className="ml-4 mt-4">
               <h2 className="text-2xl mb-2">{MY_NAME}</h2>
               <p>
-                I am a software engineer working in Tokyo.
+                I am a software engineer working in Tokyo, Japan and I am called
+                Johnmanjiro.
                 <br />
                 I graduated Kurume NCT and transferred to Tsukuba university.
                 <br />
