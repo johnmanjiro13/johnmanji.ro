@@ -11,7 +11,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Container from "../components/container";
 import Header from "../components/header";
 import Layout from "../components/layout";
-import IntroductorySecton from "../components/introductory-section";
+import TitledSecton from "../components/titled-section";
 import { MY_NAME, TITLE } from "../lib/constants";
 
 // The following import prevents a Font Awesome icon server-side rendering bug,
@@ -29,7 +29,7 @@ const Index: React.FC = () => {
       </Head>
       <Header title={TITLE} backgroundImage="/images/header.jpg" />
       <Container>
-        <IntroductorySecton title="About me">
+        <TitledSecton title="About me">
           <div className="flex flex-wrap">
             <Image
               priority
@@ -52,13 +52,13 @@ const Index: React.FC = () => {
               </p>
             </div>
           </div>
-        </IntroductorySecton>
-        <IntroductorySecton title="Employment history">
+        </TitledSecton>
+        <TitledSecton title="Employment history">
           <ul className="list-disc pl-4">
             <li>Apr 2019 - current: software engineer at Gunosy Inc.</li>
           </ul>
-        </IntroductorySecton>
-        <IntroductorySecton title="Programming skills">
+        </TitledSecton>
+        <TitledSecton title="Programming skills">
           <p className="mb-3">I can use</p>
           <ul className="list-disc pl-6">
             <li>Go</li>
@@ -68,8 +68,8 @@ const Index: React.FC = () => {
             <li>Vue.js</li>
             <li>React.js</li>
           </ul>
-        </IntroductorySecton>
-        <IntroductorySecton title="Contact">
+        </TitledSecton>
+        <TitledSecton title="Contact">
           <div className="text-4xl">
             <a href="https://github.com/johnmanjiro13">
               <FontAwesomeIcon icon={faGithub} />
@@ -84,7 +84,7 @@ const Index: React.FC = () => {
               <FontAwesomeIcon icon={faBlog} />
             </a>
           </div>
-        </IntroductorySecton>
+        </TitledSecton>
       </Container>
     </Layout>
   );
