@@ -12,7 +12,6 @@ const Header: React.FC<Props> = ({ title, backgroundImage }) => {
         priority
         src={backgroundImage}
         alt="Background image for title header"
-        className="z-0"
         objectFit="cover"
         layout="fill"
       />

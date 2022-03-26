@@ -28,8 +28,8 @@ const Index: React.FC = () => {
       <Head>
         <title>{TITLE}</title>
       </Head>
+      <Header title={TITLE} backgroundImage="/images/header.jpg" />
       <Container>
-        <Header title={TITLE} backgroundImage="/images/header.jpg" />
         <IntroductorySecton title="About me">
           <div className="flex flex-wrap">
             <Image
