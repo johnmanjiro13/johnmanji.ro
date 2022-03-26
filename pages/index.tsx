@@ -19,7 +19,6 @@ import { MY_NAME, TITLE } from '../lib/constants';
 import '@fortawesome/fontawesome-svg-core/styles.css';
 // Prevent fontawesome from adding its CSS since we did it manually above:
 import { config } from '@fortawesome/fontawesome-svg-core';
-import { faF } from '@fortawesome/free-solid-svg-icons';
 config.autoAddCss = false;
 
 const Index: React.FC = () => {
