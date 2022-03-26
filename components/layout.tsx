@@ -1,5 +1,5 @@
-import Footer from './footer';
-import Meta from './meta';
+import Footer from "./footer";
+import Meta from "./meta";
 
 const Layout: React.FC = ({ children }) => {
   return (

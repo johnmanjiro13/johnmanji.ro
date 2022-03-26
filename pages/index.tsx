@@ -1,24 +1,24 @@
-import Head from 'next/head';
-import Image from 'next/image';
+import Head from "next/head";
+import Image from "next/image";
 import {
   faGithub,
   faTwitter,
   faFacebook,
-} from '@fortawesome/free-brands-svg-icons';
-import { faBlog } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+} from "@fortawesome/free-brands-svg-icons";
+import { faBlog } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-import Container from '../components/container';
-import Header from '../components/header';
-import Layout from '../components/layout';
-import IntroductorySecton from '../components/introductory-section';
-import { MY_NAME, TITLE } from '../lib/constants';
+import Container from "../components/container";
+import Header from "../components/header";
+import Layout from "../components/layout";
+import IntroductorySecton from "../components/introductory-section";
+import { MY_NAME, TITLE } from "../lib/constants";
 
 // The following import prevents a Font Awesome icon server-side rendering bug,
 // where the icons flash from a very large icon down to a properly sized one:
-import '@fortawesome/fontawesome-svg-core/styles.css';
+import "@fortawesome/fontawesome-svg-core/styles.css";
 // Prevent fontawesome from adding its CSS since we did it manually above:
-import { config } from '@fortawesome/fontawesome-svg-core';
+import { config } from "@fortawesome/fontawesome-svg-core";
 config.autoAddCss = false;
 
 const Index: React.FC = () => {

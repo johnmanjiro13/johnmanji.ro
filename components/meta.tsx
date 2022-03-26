@@ -1,8 +1,8 @@
-import Head from 'next/head';
+import Head from "next/head";
 
-import { SITE_URL, TITLE } from '../lib/constants';
+import { SITE_URL, TITLE } from "../lib/constants";
 
-const description = 'The page about Johnmanjiro';
+const description = "The page about Johnmanjiro";
 
 const Meta: React.FC = () => {
   return (
