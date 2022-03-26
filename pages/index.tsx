@@ -11,6 +11,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Container from "../components/container";
 import Header from "../components/header";
 import Layout from "../components/layout";
+import Card from "../components/card";
 import TitledSecton from "../components/titled-section";
 import { MY_NAME, TITLE } from "../lib/constants";
 
@@ -52,6 +53,19 @@ const Index: React.FC = () => {
               </p>
             </div>
           </div>
+        </TitledSecton>
+        <TitledSecton title="Works">
+          <Card
+            image={{
+              src: "/images/gh-bump.jpg",
+              width: 642,
+              height: 276,
+              alt: "gh-bump sample image",
+            }}
+            heading="gh-bump"
+            content="gh-bump is an extension for gh cli which bumps version of a repository."
+            url="https://github.com/johnmanjiro13/gh-bump"
+          />
         </TitledSecton>
         <TitledSecton title="Employment history">
           <ul className="list-disc pl-4">
