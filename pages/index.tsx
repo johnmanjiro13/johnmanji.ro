@@ -2,8 +2,9 @@ import Head from 'next/head';
 import Image from 'next/image';
 
 import Container from '../components/container';
-import IntroductorySecton from '../components/introductory-section';
+import Header from '../components/header';
 import Layout from '../components/layout';
+import IntroductorySecton from '../components/introductory-section';
 import { MY_NAME, TITLE } from '../lib/constants';
 
 const Index: React.FC = () => {
@@ -13,6 +14,7 @@ const Index: React.FC = () => {
         <title>{TITLE}</title>
       </Head>
       <Container>
+        <Header title={TITLE} backgroundImage="/images/header.jpg" />
         <IntroductorySecton title="About me">
           <div className="flex flex-wrap">
             <Image
