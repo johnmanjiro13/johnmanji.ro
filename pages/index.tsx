@@ -17,8 +17,9 @@ const Index: React.FC = () => {
             <li>Apr 2019 - current: software engineer at Gunosy Inc.</li>
           </ul>
         </IntroductorySecton>
-        <IntroductorySecton title="Skills">
-          <ul className="list-disc pl-4">
+        <IntroductorySecton title="Programming languages (frameworks)">
+          <p className="mb-3">I can use</p>
+          <ul className="list-disc pl-6">
             <li>Go</li>
             <li>Python</li>
             <li>Ruby / Ruby on Rails</li>
