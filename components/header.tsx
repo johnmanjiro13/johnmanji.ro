@@ -7,7 +7,7 @@ type Props = {
 
 const Header: React.FC<Props> = ({ title, backgroundImage }) => {
   return (
-    <div className="relative mb-4">
+    <div className="relative mb-20">
       <Image
         priority
         src={backgroundImage}
