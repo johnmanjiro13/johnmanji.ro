@@ -2,7 +2,7 @@ type Props = {
   title: string;
 };
 
-const TitledSecton: React.FC<Props> = ({ children, title }) => {
+export const TitledSecton: React.FC<Props> = ({ children, title }) => {
   return (
     <section className="mb-20 mx-auto max-w-4xl">
       <h2 className="text-4xl mb-2 ">{title}</h2>
@@ -11,5 +11,3 @@ const TitledSecton: React.FC<Props> = ({ children, title }) => {
     </section>
   );
 };
-
-export default TitledSecton;

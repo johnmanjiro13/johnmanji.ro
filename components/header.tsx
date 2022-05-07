@@ -5,7 +5,7 @@ type Props = {
   backgroundImage: string;
 };
 
-const Header: React.FC<Props> = ({ title, backgroundImage }) => {
+export const Header: React.FC<Props> = ({ title, backgroundImage }) => {
   return (
     <div className="relative mb-20">
       <Image
@@ -19,5 +19,3 @@ const Header: React.FC<Props> = ({ title, backgroundImage }) => {
     </div>
   );
 };
-
-export default Header;

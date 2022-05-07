@@ -1,7 +1,7 @@
-import Footer from "./footer";
-import Meta from "./meta";
+import { Footer } from "./footer";
+import { Meta } from "./meta";
 
-const Layout: React.FC = ({ children }) => {
+export const Layout: React.FC = ({ children }) => {
   return (
     <div className="min-h-screen">
       <Meta />
@@ -10,5 +10,3 @@ const Layout: React.FC = ({ children }) => {
     </div>
   );
 };
-
-export default Layout;

@@ -14,7 +14,7 @@ type Props = {
   url: string;
 };
 
-const Card: React.FC<Props> = ({ image, heading, content, url }) => {
+export const Card: React.FC<Props> = ({ image, heading, content, url }) => {
   const { alt, ...imageProps } = image;
   return (
     <div className="max-w-sm rounded overflow-hidden shadow-lg relative">
@@ -27,5 +27,3 @@ const Card: React.FC<Props> = ({ image, heading, content, url }) => {
     </div>
   );
 };
-
-export default Card;

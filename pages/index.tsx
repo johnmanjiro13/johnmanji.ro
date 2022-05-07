@@ -8,11 +8,11 @@ import {
 import { faBlog } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
-import Container from "../components/container";
-import Header from "../components/header";
-import Layout from "../components/layout";
-import Card from "../components/card";
-import TitledSecton from "../components/titled-section";
+import { Container } from "../components/container";
+import { Header } from "../components/header";
+import { Layout } from "../components/layout";
+import { Card } from "../components/card";
+import { TitledSecton } from "../components/titled-section";
 import { MY_NAME, TITLE } from "../lib/constants";
 
 // The following import prevents a Font Awesome icon server-side rendering bug,

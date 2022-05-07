@@ -4,7 +4,7 @@ import { SITE_URL, TITLE } from "../lib/constants";
 
 const description = "The page about Johnmanjiro";
 
-const Meta: React.FC = () => {
+export const Meta: React.FC = () => {
   return (
     <Head>
       <meta name="viewport" content="width=device-width,initial-scale=1.0" />
@@ -19,5 +19,3 @@ const Meta: React.FC = () => {
     </Head>
   );
 };
-
-export default Meta;
