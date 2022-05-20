@@ -79,7 +79,6 @@ const Index: React.FC = () => {
             <li>Python</li>
             <li>Ruby / Ruby on Rails</li>
             <li>JavaScript / TypeScript</li>
-            <li>Vue.js</li>
             <li>React.js</li>
           </ul>
         </TitledSecton>
