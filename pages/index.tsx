@@ -13,6 +13,7 @@ import { Header } from "../components/header";
 import { Layout } from "../components/layout";
 import { Card } from "../components/card";
 import { TitledSecton } from "../components/titled-section";
+import { Flex, FlexInitial } from "../components/flex";
 import { MY_NAME, TITLE } from "../lib/constants";
 
 // The following import prevents a Font Awesome icon server-side rendering bug,
@@ -55,17 +56,28 @@ const Index: React.FC = () => {
           </div>
         </TitledSecton>
         <TitledSecton title="Works">
-          <Card
-            image={{
-              src: "/images/gh-bump.jpg",
-              width: 642,
-              height: 276,
-              alt: "gh-bump sample image",
-            }}
-            heading="gh-bump"
-            content="gh-bump is an extension for gh cli which bumps version of a repository."
-            url="https://github.com/johnmanjiro13/gh-bump"
-          />
+          <Flex>
+            <FlexInitial>
+              <Card
+                image={{
+                  src: "/images/gh-bump.jpg",
+                  width: 642,
+                  height: 276,
+                  alt: "gh-bump sample image",
+                }}
+                heading="gh-bump"
+                content="gh-bump is an extension for gh cli which bumps version of a repository."
+                url="https://github.com/johnmanjiro13/gh-bump"
+              />
+            </FlexInitial>
+            <FlexInitial>
+              <Card
+                heading="gh-cmcm"
+                content="gh-cmcm (commit comment) is a gh extension which comments to a commit by GitHub API."
+                url="https://github.com/johnmanjiro13/gh-cmcm"
+              />
+            </FlexInitial>
+          </Flex>
         </TitledSecton>
         <TitledSecton title="Employment history">
           <ul className="list-disc pl-4">
