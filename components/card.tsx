@@ -8,18 +8,25 @@ type CardImage = {
 };
 
 type Props = {
-  image: CardImage;
+  image?: CardImage;
   heading: string;
   content: string;
   url: string;
 };
 
+function imageElement(cardImage: CardImage | undefined): JSX.Element {
+  if (cardImage) {
+    const { alt, ...imageProps } = cardImage;
+    return <Image priority alt={alt} {...imageProps} />;
+  }
+  return <></>;
+}
+
 export const Card: React.FC<Props> = ({ image, heading, content, url }) => {
-  const { alt, ...imageProps } = image;
   return (
-    <div className="max-w-sm rounded overflow-hidden shadow-lg relative">
-      <Image priority alt={alt} {...imageProps} />
+    <div className="max-w-sm rounded overflow-hidden shadow-lg relative m-2">
       <div className="px-6 py-4">
+        {imageElement(image)}
         <div className="font-bold text-xl mb-2">{heading}</div>
         <p className="text-gray-700 text-base mb-2">{content}</p>
         <a href={url}>{">>"} GitHub</a>
