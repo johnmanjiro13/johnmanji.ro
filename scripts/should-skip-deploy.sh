@@ -1,6 +1,6 @@
 #!/bin/bash
 
-if [[ $VERCEL_GIT_COMMIT_REF =~ "dependabot" ]]; then
+if [[ $VERCEL_GIT_COMMIT_REF =~ "renovate" ]]; then
   echo ">> Skipping deploy!"
   exit 0;
 else
