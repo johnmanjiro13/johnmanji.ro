@@ -1,5 +1,6 @@
 type Props = {
   title: string;
+  children: React.ReactNode;
 };
 
 export const TitledSecton: React.FC<Props> = ({ children, title }) => {
