@@ -1,7 +1,11 @@
 import { Footer } from "./footer";
 import { Meta } from "./meta";
 
-export const Layout: React.FC = ({ children }) => {
+type Props = {
+  children: React.ReactNode;
+};
+
+export const Layout: React.FC<Props> = ({ children }) => {
   return (
     <div className="min-h-screen">
       <Meta />
