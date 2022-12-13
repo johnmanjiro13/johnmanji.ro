@@ -90,26 +90,27 @@ exports[`snapshot 1`] = `
               <div
                 class="max-w-sm rounded overflow-hidden shadow-lg relative m-2"
               >
+                <img
+                  alt="gh-bump sample image"
+                  class="w-full"
+                  data-nimg="1"
+                  decoding="async"
+                  height="276"
+                  src="/_next/image?url=%2Fimages%2Fgh-bump.jpg&w=1920&q=75"
+                  srcset="/_next/image?url=%2Fimages%2Fgh-bump.jpg&w=750&q=75 1x, /_next/image?url=%2Fimages%2Fgh-bump.jpg&w=1920&q=75 2x"
+                  style="color: transparent; max-width: 100%; height: auto;"
+                  width="642"
+                />
                 <div
                   class="px-6 py-4"
                 >
-                  <img
-                    alt="gh-bump sample image"
-                    data-nimg="1"
-                    decoding="async"
-                    height="276"
-                    src="/_next/image?url=%2Fimages%2Fgh-bump.jpg&w=1920&q=75"
-                    srcset="/_next/image?url=%2Fimages%2Fgh-bump.jpg&w=750&q=75 1x, /_next/image?url=%2Fimages%2Fgh-bump.jpg&w=1920&q=75 2x"
-                    style="color: transparent; max-width: 100%; height: auto;"
-                    width="642"
-                  />
                   <div
                     class="font-bold text-xl mb-2"
                   >
                     gh-bump
                   </div>
                   <p
-                    class="text-gray-700 text-base mb-2"
+                    class="text-gray-700 text-base"
                   >
                     gh-bump is an extension for gh cli which bumps version of a repository.
                   </p>
@@ -136,7 +137,7 @@ exports[`snapshot 1`] = `
                     gh-cmcm
                   </div>
                   <p
-                    class="text-gray-700 text-base mb-2"
+                    class="text-gray-700 text-base"
                   >
                     gh-cmcm (commit comment) is a gh extension which comments to a commit by GitHub API.
                   </p>
