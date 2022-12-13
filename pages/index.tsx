@@ -40,6 +40,10 @@ const Index: React.FC = () => {
               width={144}
               alt={MY_NAME}
               className="rounded-full"
+              style={{
+                maxWidth: "100%",
+                height: "auto",
+              }}
             />
             <div className="ml-4 mt-4">
               <h2 className="text-2xl mb-2">{MY_NAME}</h2>

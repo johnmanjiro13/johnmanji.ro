@@ -17,7 +17,17 @@ type Props = {
 function imageElement(cardImage: CardImage | undefined): JSX.Element {
   if (cardImage) {
     const { alt, ...imageProps } = cardImage;
-    return <Image priority alt={alt} {...imageProps} />;
+    return (
+      <Image
+        priority
+        alt={alt}
+        {...imageProps}
+        style={{
+          maxWidth: "100%",
+          height: "auto",
+        }}
+      />
+    );
   }
   return <></>;
 }
