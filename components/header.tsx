@@ -12,8 +12,11 @@ export const Header: React.FC<Props> = ({ title, backgroundImage }) => {
         priority
         src={backgroundImage}
         alt="Background image for title header"
-        objectFit="cover"
-        layout="fill"
+        fill
+        sizes="100vw"
+        style={{
+          objectFit: "cover",
+        }}
       />
       <h1 className="text-center text-5xl p-20 relative">{title}</h1>
     </div>
