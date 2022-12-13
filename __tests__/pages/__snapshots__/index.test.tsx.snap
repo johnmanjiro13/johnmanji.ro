@@ -9,19 +9,15 @@ exports[`snapshot 1`] = `
       <div
         class="relative mb-20"
       >
-        <span
-          style="box-sizing: border-box; display: block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px;"
-        >
-          <img
-            alt="Background image for title header"
-            data-nimg="fill"
-            decoding="async"
-            sizes="100vw"
-            src="/_next/image?url=%2Fimages%2Fheader.jpg&w=3840&q=75"
-            srcset="/_next/image?url=%2Fimages%2Fheader.jpg&w=640&q=75 640w, /_next/image?url=%2Fimages%2Fheader.jpg&w=750&q=75 750w, /_next/image?url=%2Fimages%2Fheader.jpg&w=828&q=75 828w, /_next/image?url=%2Fimages%2Fheader.jpg&w=1080&q=75 1080w, /_next/image?url=%2Fimages%2Fheader.jpg&w=1200&q=75 1200w, /_next/image?url=%2Fimages%2Fheader.jpg&w=1920&q=75 1920w, /_next/image?url=%2Fimages%2Fheader.jpg&w=2048&q=75 2048w, /_next/image?url=%2Fimages%2Fheader.jpg&w=3840&q=75 3840w"
-            style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%; object-fit: cover;"
-          />
-        </span>
+        <img
+          alt="Background image for title header"
+          data-nimg="fill"
+          decoding="async"
+          sizes="100vw"
+          src="/_next/image?url=%2Fimages%2Fheader.jpg&w=3840&q=75"
+          srcset="/_next/image?url=%2Fimages%2Fheader.jpg&w=640&q=75 640w, /_next/image?url=%2Fimages%2Fheader.jpg&w=750&q=75 750w, /_next/image?url=%2Fimages%2Fheader.jpg&w=828&q=75 828w, /_next/image?url=%2Fimages%2Fheader.jpg&w=1080&q=75 1080w, /_next/image?url=%2Fimages%2Fheader.jpg&w=1200&q=75 1200w, /_next/image?url=%2Fimages%2Fheader.jpg&w=1920&q=75 1920w, /_next/image?url=%2Fimages%2Fheader.jpg&w=2048&q=75 2048w, /_next/image?url=%2Fimages%2Fheader.jpg&w=3840&q=75 3840w"
+          style="position: absolute; height: 100%; width: 100%; left: 0px; top: 0px; right: 0px; bottom: 0px; object-fit: cover; color: transparent;"
+        />
         <h1
           class="text-center text-5xl p-20 relative"
         >
@@ -45,29 +41,17 @@ exports[`snapshot 1`] = `
           <div
             class="flex flex-wrap"
           >
-            <span
-              style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
-            >
-              <span
-                style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"
-              >
-                <img
-                  alt=""
-                  aria-hidden="true"
-                  src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27144%27%20height=%27144%27/%3e"
-                  style="display: block; max-width: 100%; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"
-                />
-              </span>
-              <img
-                alt="Ikumi Nakamura"
-                class="rounded-full"
-                data-nimg="intrinsic"
-                decoding="async"
-                src="/_next/image?url=%2Fimages%2Fprofile.jpg&w=384&q=75"
-                srcset="/_next/image?url=%2Fimages%2Fprofile.jpg&w=256&q=75 1x, /_next/image?url=%2Fimages%2Fprofile.jpg&w=384&q=75 2x"
-                style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
-              />
-            </span>
+            <img
+              alt="Ikumi Nakamura"
+              class="rounded-full"
+              data-nimg="1"
+              decoding="async"
+              height="144"
+              src="/_next/image?url=%2Fimages%2Fprofile.jpg&w=384&q=75"
+              srcset="/_next/image?url=%2Fimages%2Fprofile.jpg&w=256&q=75 1x, /_next/image?url=%2Fimages%2Fprofile.jpg&w=384&q=75 2x"
+              style="color: transparent;"
+              width="144"
+            />
             <div
               class="ml-4 mt-4"
             >
@@ -109,28 +93,16 @@ exports[`snapshot 1`] = `
                 <div
                   class="px-6 py-4"
                 >
-                  <span
-                    style="box-sizing: border-box; display: inline-block; overflow: hidden; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; position: relative; max-width: 100%;"
-                  >
-                    <span
-                      style="box-sizing: border-box; display: block; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px; max-width: 100%;"
-                    >
-                      <img
-                        alt=""
-                        aria-hidden="true"
-                        src="data:image/svg+xml,%3csvg%20xmlns=%27http://www.w3.org/2000/svg%27%20version=%271.1%27%20width=%27642%27%20height=%27276%27/%3e"
-                        style="display: block; max-width: 100%; background: none; opacity: 1; border: 0px; margin: 0px; padding: 0px;"
-                      />
-                    </span>
-                    <img
-                      alt="gh-bump sample image"
-                      data-nimg="intrinsic"
-                      decoding="async"
-                      src="/_next/image?url=%2Fimages%2Fgh-bump.jpg&w=1920&q=75"
-                      srcset="/_next/image?url=%2Fimages%2Fgh-bump.jpg&w=750&q=75 1x, /_next/image?url=%2Fimages%2Fgh-bump.jpg&w=1920&q=75 2x"
-                      style="position: absolute; top: 0px; left: 0px; bottom: 0px; right: 0px; box-sizing: border-box; padding: 0px; margin: auto; display: block; width: 0px; height: 0px; min-width: 100%; max-width: 100%; min-height: 100%; max-height: 100%;"
-                    />
-                  </span>
+                  <img
+                    alt="gh-bump sample image"
+                    data-nimg="1"
+                    decoding="async"
+                    height="276"
+                    src="/_next/image?url=%2Fimages%2Fgh-bump.jpg&w=1920&q=75"
+                    srcset="/_next/image?url=%2Fimages%2Fgh-bump.jpg&w=750&q=75 1x, /_next/image?url=%2Fimages%2Fgh-bump.jpg&w=1920&q=75 2x"
+                    style="color: transparent;"
+                    width="642"
+                  />
                   <div
                     class="font-bold text-xl mb-2"
                   >
