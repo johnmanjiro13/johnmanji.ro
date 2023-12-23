@@ -52,8 +52,8 @@ export default function Home() {
             </div>
           </TitledSecton>
           <TitledSecton title="Works">
-            <div className="flex">
-              <div className="flex-initial">
+            <div className="grid grid-cols-2 gap-4">
+              <div className="row-span-3">
                 <Card
                   image={{
                     src: "/images/gh-bump.jpg",
@@ -62,15 +62,29 @@ export default function Home() {
                     alt: "gh-bump sample image",
                   }}
                   heading="gh-bump"
-                  content="gh-bump is an extension for gh cli which bumps version of a repository."
+                  content="An extension for gh cli which bumps version of a repository."
                   url="https://github.com/johnmanjiro13/gh-bump"
                 />
               </div>
-              <div className="flex-initial">
+              <div className="">
                 <Card
                   heading="gh-cmcm"
-                  content="gh-cmcm (commit comment) is a gh extension which comments to a commit by GitHub API."
+                  content="A gh extension which comments to a commit by GitHub API. cmcm means 'commit comment'."
                   url="https://github.com/johnmanjiro13/gh-cmcm"
+                />
+              </div>
+              <div>
+                <Card
+                  heading="tokio-fluent"
+                  content="A fluentd client for Rust using tokio."
+                  url="https://github.com/johnmanjiro13/tokio-fluent"
+                />
+              </div>
+              <div>
+                <Card
+                  heading="auto-reviewer-assign"
+                  content="A GitHub Action to assign reviewers to pull requests automatically."
+                  url="https://github.com/johnmanjiro13/auto-reviewer-assign"
                 />
               </div>
             </div>
