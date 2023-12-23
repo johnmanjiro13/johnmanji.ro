@@ -1,7 +1,7 @@
 import { render, screen } from "@testing-library/react";
 import { test, expect } from "vitest";
 
-import { Card } from "@/components/Card";
+import { Card } from "@/components/common/Card";
 
 test("match texts", () => {
   const props = {

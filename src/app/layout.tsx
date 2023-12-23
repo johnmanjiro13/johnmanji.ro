@@ -1,6 +1,6 @@
 import { Metadata } from "next";
 
-import { Footer } from "@/components/Footer";
+import { Footer } from "@/components/common/Footer";
 import { SITE_URL, TITLE } from "@/constants/global";
 
 import "./global.css";
