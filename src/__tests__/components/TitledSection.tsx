@@ -1,7 +1,7 @@
 import { render, screen } from "@testing-library/react";
 import { test, expect } from "vitest";
 
-import { TitledSecton } from "../../components/TitledSection";
+import { TitledSecton } from "@/components/TitledSection";
 
 test("match texts", () => {
   const child = <div>Child Text</div>;

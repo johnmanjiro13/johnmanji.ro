@@ -1,10 +1,15 @@
 {
+  "settings": {
+    "import/resolver":{
+      "typescript": {}
+    }
+  },
   "plugins": ["import", "unused-imports"],
   "extends": ["next/core-web-vitals", "prettier"],
   "rules": {
     "@typescript-eslint/no-unused-vars": 0,
     "import/order": [
-      "error",
+      2,
       {
         "alphabetize": {
           "order": "asc"
@@ -12,6 +17,12 @@
         "newlines-between": "always"
       }
     ],
-    "unused-imports/no-unused-imports": "error"
+    "unused-imports/no-unused-imports": 2,
+    "no-restricted-imports": [
+      2,
+      {
+        "patterns": ["../"]
+      }
+    ]
   }
 }

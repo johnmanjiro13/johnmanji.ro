@@ -8,11 +8,11 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { Metadata } from "next";
 import Image from "next/image";
 
-import { Card } from "../components/Card";
-import { Container } from "../components/Container";
-import { Header } from "../components/Header";
-import { TitledSecton } from "../components/TitledSection";
-import { MY_NAME, TITLE } from "../constants/global";
+import { Card } from "@/components/Card";
+import { Container } from "@/components/Container";
+import { Header } from "@/components/Header";
+import { TitledSecton } from "@/components/TitledSection";
+import { MY_NAME, TITLE } from "@/constants/global";
 
 export const metadata: Metadata = {
   title: TITLE,
