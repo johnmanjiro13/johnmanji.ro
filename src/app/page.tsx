@@ -1,17 +1,18 @@
-import { Metadata } from "next";
-import { MY_NAME, TITLE } from "../constants/global";
-import { Header } from "../components/Header";
-import { Container } from "../components/Container";
-import { TitledSecton } from "../components/TitledSection";
-import Image from "next/image";
-import { Card } from "../components/Card";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faFacebook,
   faGithub,
   faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
 import { faBlog } from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { Metadata } from "next";
+import Image from "next/image";
+
+import { Card } from "../components/Card";
+import { Container } from "../components/Container";
+import { Header } from "../components/Header";
+import { TitledSecton } from "../components/TitledSection";
+import { MY_NAME, TITLE } from "../constants/global";
 
 export const metadata: Metadata = {
   title: TITLE,
