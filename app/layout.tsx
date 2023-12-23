@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 import { SITE_URL, TITLE } from "../lib/constants";
 import "./global.css";
-import { Footer } from "../components/footer";
+import { Footer } from "../components/Footer";
 
 const description = "The page about Johnmanjiro";
 

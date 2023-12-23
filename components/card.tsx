@@ -14,7 +14,7 @@ type Props = {
   url: string;
 };
 
-function imageElement(cardImage: CardImage | undefined): JSX.Element {
+function ImageElement({ cardImage }: { cardImage: CardImage | undefined }) {
   if (cardImage) {
     const { alt, ...imageProps } = cardImage;
     return (
@@ -33,10 +33,10 @@ function imageElement(cardImage: CardImage | undefined): JSX.Element {
   return <></>;
 }
 
-export const Card: React.FC<Props> = ({ image, heading, content, url }) => {
+export function Card({ image, heading, content, url }: Props) {
   return (
     <div className="max-w-sm rounded overflow-hidden shadow-lg relative m-2">
-      {imageElement(image)}
+      <ImageElement cardImage={image} />
       <div className="px-6 py-4">
         <div className="font-bold text-xl mb-2">{heading}</div>
         <p className="text-gray-700 text-base">{content}</p>
@@ -44,4 +44,4 @@ export const Card: React.FC<Props> = ({ image, heading, content, url }) => {
       </div>
     </div>
   );
-};
+}

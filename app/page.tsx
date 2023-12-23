@@ -1,11 +1,10 @@
 import { Metadata } from "next";
 import { MY_NAME, TITLE } from "../lib/constants";
-import { Header } from "../components/header";
-import { Container } from "../components/container";
-import { TitledSecton } from "../components/titled-section";
+import { Header } from "../components/Header";
+import { Container } from "../components/Container";
+import { TitledSecton } from "../components/TitledSection";
 import Image from "next/image";
-import { Flex, FlexInitial } from "../components/flex";
-import { Card } from "../components/card";
+import { Card } from "../components/Card";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faFacebook,
@@ -52,8 +51,8 @@ export default function Home() {
             </div>
           </TitledSecton>
           <TitledSecton title="Works">
-            <Flex>
-              <FlexInitial>
+            <div className="flex">
+              <div className="flex-initial">
                 <Card
                   image={{
                     src: "/images/gh-bump.jpg",
@@ -65,15 +64,15 @@ export default function Home() {
                   content="gh-bump is an extension for gh cli which bumps version of a repository."
                   url="https://github.com/johnmanjiro13/gh-bump"
                 />
-              </FlexInitial>
-              <FlexInitial>
+              </div>
+              <div className="flex-initial">
                 <Card
                   heading="gh-cmcm"
                   content="gh-cmcm (commit comment) is a gh extension which comments to a commit by GitHub API."
                   url="https://github.com/johnmanjiro13/gh-cmcm"
                 />
-              </FlexInitial>
-            </Flex>
+              </div>
+            </div>
           </TitledSecton>
           <TitledSecton title="Employment history">
             <ul className="list-disc pl-4">
