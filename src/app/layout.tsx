@@ -1,5 +1,5 @@
 import { Metadata } from "next";
-import { SITE_URL, TITLE } from "../lib/constants";
+import { SITE_URL, TITLE } from "../constants/global";
 import "./global.css";
 import { Footer } from "../components/Footer";
 

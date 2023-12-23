@@ -1,5 +1,5 @@
 import { Metadata } from "next";
-import { MY_NAME, TITLE } from "../lib/constants";
+import { MY_NAME, TITLE } from "../constants/global";
 import { Header } from "../components/Header";
 import { Container } from "../components/Container";
 import { TitledSecton } from "../components/TitledSection";
