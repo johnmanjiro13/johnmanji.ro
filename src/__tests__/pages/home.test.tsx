@@ -1,8 +1,8 @@
 import { test, expect } from "vitest";
 import { render } from "@testing-library/react";
-import Index from "../../pages/index";
+import Home from "../../app/page";
 
 test("snapshot", () => {
-  const { asFragment } = render(<Index />);
+  const { asFragment } = render(<Home />);
   expect(asFragment()).toMatchSnapshot();
 });
