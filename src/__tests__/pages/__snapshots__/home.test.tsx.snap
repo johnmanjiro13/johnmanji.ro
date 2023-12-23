@@ -83,10 +83,10 @@ exports[`snapshot 1`] = `
           class="mb-4 w-80"
         />
         <div
-          class="flex"
+          class="grid grid-cols-2 gap-4"
         >
           <div
-            class="flex-initial"
+            class="row-span-3"
           >
             <div
               class="max-w-sm rounded overflow-hidden shadow-lg relative m-2"
@@ -114,7 +114,7 @@ exports[`snapshot 1`] = `
                 <p
                   class="text-gray-700 text-base"
                 >
-                  gh-bump is an extension for gh cli which bumps version of a repository.
+                  An extension for gh cli which bumps version of a repository.
                 </p>
                 <a
                   href="https://github.com/johnmanjiro13/gh-bump"
@@ -125,7 +125,7 @@ exports[`snapshot 1`] = `
             </div>
           </div>
           <div
-            class="flex-initial"
+            class=""
           >
             <div
               class="max-w-sm rounded overflow-hidden shadow-lg relative m-2"
@@ -141,10 +141,60 @@ exports[`snapshot 1`] = `
                 <p
                   class="text-gray-700 text-base"
                 >
-                  gh-cmcm (commit comment) is a gh extension which comments to a commit by GitHub API.
+                  A gh extension which comments to a commit by GitHub API. cmcm means 'commit comment'.
                 </p>
                 <a
                   href="https://github.com/johnmanjiro13/gh-cmcm"
+                >
+                  &gt;&gt; GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div
+              class="max-w-sm rounded overflow-hidden shadow-lg relative m-2"
+            >
+              <div
+                class="px-6 py-4"
+              >
+                <div
+                  class="font-bold text-xl mb-2"
+                >
+                  tokio-fluent
+                </div>
+                <p
+                  class="text-gray-700 text-base"
+                >
+                  A fluentd client for Rust using tokio.
+                </p>
+                <a
+                  href="https://github.com/johnmanjiro13/tokio-fluent"
+                >
+                  &gt;&gt; GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+          <div>
+            <div
+              class="max-w-sm rounded overflow-hidden shadow-lg relative m-2"
+            >
+              <div
+                class="px-6 py-4"
+              >
+                <div
+                  class="font-bold text-xl mb-2"
+                >
+                  auto-reviewer-assign
+                </div>
+                <p
+                  class="text-gray-700 text-base"
+                >
+                  A GitHub Action to assign reviewers to pull requests automatically.
+                </p>
+                <a
+                  href="https://github.com/johnmanjiro13/auto-reviewer-assign"
                 >
                   &gt;&gt; GitHub
                 </a>
