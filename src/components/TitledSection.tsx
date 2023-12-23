@@ -1,9 +1,10 @@
-type Props = {
+export function TitledSecton({
+  title,
+  children,
+}: {
   title: string;
   children: React.ReactNode;
-};
-
-export const TitledSecton: React.FC<Props> = ({ children, title }) => {
+}) {
   return (
     <section className="mb-20 mx-auto max-w-4xl">
       <h2 className="text-4xl mb-2 ">{title}</h2>
@@ -11,4 +12,4 @@ export const TitledSecton: React.FC<Props> = ({ children, title }) => {
       {children}
     </section>
   );
-};
+}

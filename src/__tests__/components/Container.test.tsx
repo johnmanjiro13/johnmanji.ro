@@ -1,6 +1,7 @@
-import { test, expect } from "vitest";
 import { render, screen } from "@testing-library/react";
-import { Container } from "../../components/container";
+import { test, expect } from "vitest";
+
+import { Container } from "@/components/Container";
 
 test("match texts", () => {
   const child = <div>Child Text</div>;

@@ -1,6 +1,7 @@
-import { test, expect } from "vitest";
 import { render, screen } from "@testing-library/react";
-import { Header } from "../../components/header";
+import { test, expect } from "vitest";
+
+import { Header } from "@/components/Header";
 
 test("match texts", () => {
   const props = {
