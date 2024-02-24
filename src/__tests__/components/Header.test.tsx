@@ -10,7 +10,7 @@ test("match texts", () => {
   };
   render(<Header {...props} />);
 
-  expect(screen.getByText("Title")).toBeDefined();
+  expect(screen.getByText("Title")).toBeTruthy();
   const image = screen.getByRole("img") as HTMLImageElement;
   expect(image.src).toContain("background_image");
 });

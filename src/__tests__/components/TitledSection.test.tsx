@@ -6,6 +6,6 @@ import { TitledSecton } from "@/components/common/TitledSection";
 test("match texts", () => {
   const child = <div>Child Text</div>;
   render(<TitledSecton title="Title">{child}</TitledSecton>);
-  expect(screen.getByText("Title")).toBeDefined();
-  expect(screen.getByText("Child Text")).toBeDefined();
+  expect(screen.getByText("Title")).toBeTruthy();
+  expect(screen.getByText("Child Text")).toBeTruthy();
 });

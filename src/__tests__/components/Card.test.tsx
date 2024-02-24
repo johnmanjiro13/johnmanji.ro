@@ -21,8 +21,8 @@ test("match texts", () => {
   expect(image.src).toContain("card_image");
   expect(image.alt).toBe("Card Image");
 
-  expect(screen.getByText("Card Heading")).toBeDefined();
-  expect(screen.getByText("Card Content")).toBeDefined();
+  expect(screen.getByText("Card Heading")).toBeTruthy();
+  expect(screen.getByText("Card Content")).toBeTruthy();
 
   const link = screen.getByRole("link") as HTMLAnchorElement;
   expect(link.href).toBe("https://example.com/");
